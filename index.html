@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evan — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Evan</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Evan</h1>
+      <p class="hero-title">GTM &bull; Field Developer Engineer &bull; Software Engineer</p>
+      <p class="hero-sub">I build developer tools, distributed systems, and technical go-to-market strategies that bridge engineering and business.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a technically-minded professional who operates at the intersection of software engineering, field development, and go-to-market strategy. I love turning complex technical ideas into clear narratives and working prototypes.</p>
+          <p>Whether I'm writing distributed systems, prototyping ML pipelines, or partnering with customers to drive adoption, I bring a builder's mindset to everything I do.</p>
+          <p>Outside of work I enjoy exploring new technologies, contributing to open source, and constantly learning.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-num">GTM</span>
+            <span class="stat-label">Strategy</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">FDE</span>
+            <span class="stat-label">Field Dev</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">SE</span>
+            <span class="stat-label">Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-tag">Distributed Systems</div>
+          <h3>P2P DFS</h3>
+          <p>A peer-to-peer distributed file system with a custom Raft consensus implementation, CLI, node API, and end-to-end test suite.</p>
+          <div class="project-tech">
+            <span>Go</span><span>Raft</span><span>gRPC</span>
+          </div>
+          <a href="https://github.com/Evano" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Machine Learning</div>
+          <h3>Handwritten Digit NN</h3>
+          <p>Neural network trained from scratch to recognize handwritten digits, including custom backpropagation and model serialization.</p>
+          <div class="project-tech">
+            <span>Python</span><span>NumPy</span><span>MNIST</span>
+          </div>
+          <a href="https://github.com/Evano" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Developer Tool</div>
+          <h3>Job Scout</h3>
+          <p>Automated job search aggregator that scrapes, filters, and ranks listings based on custom criteria, saving hours of manual searching.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Web Scraping</span><span>CLI</span>
+          </div>
+          <a href="https://github.com/Evano" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Finance</div>
+          <h3>Stock Tracker</h3>
+          <p>Real-time stock data tracker and analyzer with custom charting, historical data storage, and alerting capabilities.</p>
+          <div class="project-tech">
+            <span>Python</span><span>Data Analysis</span><span>APIs</span>
+          </div>
+          <a href="https://github.com/Evano" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Simulation</div>
+          <h3>SimNet</h3>
+          <p>Network simulation environment for testing distributed protocols under various failure modes and latency conditions.</p>
+          <div class="project-tech">
+            <span>Go</span><span>Networking</span><span>Testing</span>
+          </div>
+          <a href="https://github.com/Evano" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Systems</div>
+          <h3>C++ Map</h3>
+          <p>Custom implementation of a map/dictionary data structure in C++, exploring memory management, hashing, and red-black tree balancing.</p>
+          <div class="project-tech">
+            <span>C++</span><span>Data Structures</span><span>Algorithms</span>
+          </div>
+          <a href="https://github.com/Evano" target="_blank" class="project-link">View on GitHub →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>Go</li>
+            <li>Python</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Systems & Infrastructure</h3>
+          <ul>
+            <li>Distributed Systems</li>
+            <li>Raft Consensus</li>
+            <li>gRPC / REST</li>
+            <li>Networking</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>ML & Data</h3>
+          <ul>
+            <li>Neural Networks</li>
+            <li>NumPy / Pandas</li>
+            <li>Data Analysis</li>
+            <li>Model Training</li>
+            <li>Python ML Stack</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>GTM & Field</h3>
+          <ul>
+            <li>Technical Sales</li>
+            <li>Developer Relations</li>
+            <li>Solution Architecture</li>
+            <li>Technical Writing</li>
+            <li>Customer Success</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-inner">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">Have a project in mind, want to collaborate, or just want to say hi? My inbox is open.</p>
+      <div class="contact-links">
+        <a href="mailto:your@email.com" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          <span>your@email.com</span>
+        </a>
+        <a href="https://github.com/Evano" target="_blank" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844a9.59 9.59 0 0 1 2.504.337c1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.02 10.02 0 0 0 22 12.017C22 6.484 17.522 2 12 2Z"/></svg>
+          <span>github.com/Evano</span>
+        </a>
+        <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Built by Evan &mdash; <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
